@@ -7,7 +7,7 @@ def r_table(
     columns: List[str],
     sortmode: str = "columns",
     na_indicator: Optional[List[str]] = None,
-    treat_blank_as_na: bool = TrueZ,
+    treat_blank_as_na: bool = True,
     na_label_map: Optional[Dict[str, str]] = None,
 ) -> pd.DataFrame:
     """
